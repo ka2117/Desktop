@@ -1,0 +1,56 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: italic;
+    font-stretch: condensed;
+    text-transform: capitalize;
+    text-decoration:none;
+    border:5px solid green;
+    
+}
+p1{
+    text-align: justify;
+    /*text-shadow: 4px 6px 5px green;*/
+    font-size: 16px;
+    border:2px solid royalblue;
+    display:inline-block;
+    width: 1000px;
+    height: 60px;
+   }
+p:first-letter{
+    font-size: 100px;
+}
+p1:first-line{
+    font-size: 20px;
+}
+/* pseudoclasses in proper order */
+a:link{
+    color:greenyellow;
+    border:5px solid green;
+    font-size: 16px;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:blue;
+}
+a:focus{
+    color:darkmagenta;
+}
+a:active{
+    color:chocolate;
+}
+
+
+
+
+/* Default font size is 16px
+pixel means 1/125th of an inch
+in percentage example for 75%, 16*(75/100) = 12px
+1em=16px em means width of m*/

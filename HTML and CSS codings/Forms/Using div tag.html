@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Form creation </title>
+    </head>
+    <body>
+        <form action="Signup.html" method="GET" enctype="multipart/form-data">
+            <div>
+                <label for="User first name"> User first name </label>
+                <input name="User first name" id="User first name" required>
+            </div>
+            <div>
+                <label for="User last name"> User last name </label> 
+                <input type="text" name="User last name" id="User last name" maxlength="1" required>
+            </div>
+            <div>
+                <label for="User email id"> User email id </label>
+                <input type="email" id="User email id" placeholder="User email id" required>
+            </div>
+            <div>
+                 <!-- <label for="Password"> Password </label>  -->
+                <input type="password" name="Password" id="Password" placeholder="User password" minlength="15" >
+            </div>
+            <div>
+                <label for="Mobile number"> Mobile number </label>
+                <input name="Mobile number" id="Mobile number" required value="8610866602">
+            </div>
+            <div>
+                <label for="Date of birth"> DOB </label>
+                <input type="date" name="DOB" id="Date of birth" min="01.01.2000" required>
+                </div>
+               
+                <div>
+                    <label for="website"> Enter a URL: </label>
+                    <input type="url" name="website" id="website">
+                    <button type="submit"> submit </button>
+                </div>
+                <div>
+                    <label for="websearch"> search: </label>
+                    <input type="search" name="search" id="search">
+                    <button type="submit"> search </button>
+                </div>
+                <div>
+                    <label for="Hobbies"> Write your hobbies </label>
+                    <textarea name="Write your hobbies" id="write your hobbies" cols="20" rows="10"> My hobbies </textarea>
+                </div>
+                <div>
+                    <p><b><u>Favorite subject </p></b></u>>
+                    </div>
+                    <div>
+                    <input type="checkbox" name="Tamil" id="Tamil">
+                    <label for="Tamil"> Tamil </label>
+                    </div>
+                    <div>
+                    <input type="checkbox" name="English" id="English">
+                    <label for="English"> English </label>
+                    </div>
+                    <div>
+                    <input type="checkbox" name="Mathematics" id="Mathematics">
+                    <label for="Mathematics"> Mathematics </label>
+                    </div>
+                    <div>
+                        <p><b><u> Gender </b></p></u>
+                    </div>
+                    <div>
+                        <input type="radio" name="Gender" id="male" value="male">
+                        <label for="male"> Male </label>
+                    </div>
+                    <div>
+                        <input type="radio" name="Gender" id="Female" value="Female">
+                        <label for="Female"> Female </label>
+                    </div>
+                    <div>
+                        <input type="radio" name="Gender" id="Transgender" value="Transgender">
+                        <label for="Transgender"> Transgender </label>
+                    </div>
+                    <div>
+                        <p><b> Blood group </b></p>
+                        <select name="Blood group" id="Blood group" multiple>
+                            <option value="O+ve"> O+ve </option>
+                            <option value="B+ve"> B+ve </option>
+                            <option value="A+ve" label="A+ve"></option>
+                        </select>
+                       </div>
+                       <div>
+                        <label for="File"> File to be uploaded </label>
+                        <input type="File" name="File" id="file">
+                       </div>
+                       <div>
+                        <label for="Alternate phone number"> Alternate phone number </label>
+                        <input type="tel" name="Alternate phone number" id="Alternate phone number">
+                    </div>
+                    <div>
+                        <label for="Total Marks in 10th standard"> Total Marks in 10th standard </label>
+                        <input type="number" name="Total Marks in 10th standard" id="Total Marks in 10th standard" step="20" min="340" max="480">
+                   </div>
+            <button type="submit"> Signup </button>
+            <button type="reset"> Reset </button>
+        </form>
+        <form action="list of matrices.html">
+            <button type="submit"> Login </button>
+        </form>
+           </body>
+            </html>

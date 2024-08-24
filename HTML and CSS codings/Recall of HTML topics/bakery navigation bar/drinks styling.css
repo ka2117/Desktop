@@ -1,0 +1,21 @@
+body{
+    background-image: url("./Bakery\ Images/Beverages.jpeg");
+}
+
+
+
+
+
+
+
+h1{
+    color: blue;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: chartreuse;
+    border: 20px dotted black;
+}

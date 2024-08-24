@@ -1,0 +1,156 @@
+body{
+   background: linear-gradient(to right, aqua, brown, crimson);
+   max-width: 1200px;
+   min-width: 1000px;
+}
+/* Restaurant heading  */
+.MK{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 2px gold;
+    border: 30px solid transparent;
+    border-image: url("/CSS navigation bar for hotel/download.png") 30 stretch ;
+}
+/* lunch menu heading  */
+#Lunch{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 2px gold;
+    border: 30px solid transparent;
+    border-image: url("/CSS navigation bar for hotel/download (3).png") 30 repeat ;
+}
+/* styling starts for table */
+table{
+    width: 600px;
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+}
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: cyan;
+    text-shadow: 2px 5px 3px greenyellow;
+    text-transform: uppercase;
+}
+.Varieties{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-shadow: 2px 2px 3px rgb(43, 226, 119);
+    text-transform: uppercase;
+}
+#Price{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: rights;
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-shadow: 2px 2px 3px rgb(43, 226, 119);
+    text-transform: uppercase;
+}
+#Biriyani{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: rights;
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-shadow: 2px 2px 3px rgb(43, 226, 119);
+    text-transform: uppercase;
+}    
+/* Styling for table ends here */
+/* Stylind for starters starts here */
+#Startup{
+   border: 15px solid black;
+   border-radius: 80px 50px;
+   background-color: chocolate;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   text-shadow: 3px 2px 5px royalblue;
+   text-transform: uppercase;
+}
+ul li::marker{
+  list-style-type: disc;
+  color: red;
+}
+li{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 4px goldenrod;
+    border: 5px solid black;
+    background-color: aquamarine;
+    width: 200px;
+    border-top-width: 7px;
+    border-bottom-width: 7px;
+    border-right-width: 7px;
+    border-left-width: 7px;
+    
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 2px gold;
+    border: 30px solid transparent;
+}
+#veg::marker{
+    list-style-type: disc;
+    color: green;
+}
+/*styling for starters ends here   */
+/* Styling for table of starters starts here */
+table{
+    width: 600px;
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+}
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: cyan;
+    text-shadow: 2px 5px 3px greenyellow;
+    text-transform: uppercase;
+}
+td{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-shadow: 2px 2px 3px rgb(43, 226, 119);
+    text-transform: uppercase; 
+}
+

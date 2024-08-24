@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+    <link rel="stylesheet" href="Registration Form styling.css" type="text/css">
+</head>
+<body>
+    <h1> online Registration form </h1>
+   <div class="regform">
+    <form action="">
+        <div>
+            <label for="Username"class="name"> Username </label>
+            <input type="text" class="user" id="Username" name="username" placeholder="Enter your username" required>
+        </div>
+        <div>
+            <label for="User id" class="name"> User id </label>
+            <input type="email" class="user" id="User id" name="User id" placeholder="Enter your mail id" required>
+        </div>
+        <div>
+            <label for="password" class="name"> password </label>
+            <input type="password" class="user"  id="password" name="password" placeholder="Enter your password" required>
+        </div>
+        <div>
+            <label for="Gender" class="name"> Gender </label>
+            <input type="text" class="user" id="Gender" name="Gender" required>
+        </div>
+       <div>
+        <h2> Date of birth </h2>
+        <label for="month"> Month </label>
+        <input type="month" id="month" class="DOB" name="month" required>
+        <label for="year"> Year </label>
+        <input type="number" id="year" name="year" class="DOB" required min="1990">
+        <label for="day"> Day </label>
+        <input type="number" id="day" class="DOB" name="day" required>
+       </div>
+      <div>
+        <h3> How do you hear about us? </h3>
+        <input type="checkbox" id="Newspaper" name="Newspaper" value="Newspaper">
+        <label for="Newspaper"> Newspaper </label>
+        <input type="checkbox" id="Friend" name="Friend" value="Friend">
+        <label for="Friend"> Friend </label>
+        <input type="checkbox" id="Website" name="website" value="Website">
+        <label for="Website"> Website </label>
+        <input type="checkbox" id="other" name="other" value="Other">
+        <label for="Other"> Other </label>
+     </div>
+     <div>
+        <h4> I agree to school fees in advance by: </h4>
+        <input type="radio" id="cash" name="Payment" value="cash">
+        <label for="cash"> Cash </label>
+        <input type="radio" id="card" name="Payment" value="card">
+        <label for="card"> Card </label>
+        <input type="radio" id="Cheque" name="Payment" value="Cheque">
+        <label for="Cheque"> Cheque </label>
+     </div>
+     <div class="signature">
+        <p> STUDENT SIGNATURE</p>
+        <hr>
+     </div>
+     <div class="princi">
+        <p> PRINCIPAL SIGNATURE</p>
+        <hr>
+     </div>
+     <div class="par">
+        <p> PARENT SIGNATURE </p>
+        <hr>
+     </div>
+        
+     
+    
+<div>
+        <label for="Date"> Date </label>
+        <input type="date" id="Date" name="Date" required>
+     </div>
+         
+    </form>
+   </div>
+    
+</body>
+</html>

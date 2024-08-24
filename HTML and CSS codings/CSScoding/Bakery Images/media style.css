@@ -1,0 +1,29 @@
+.para1{
+    background-color: purple;
+}
+.para2{
+    background-color: aqua;
+}
+.para3{
+    background-color: chartreuse;
+}
+.para4{
+    background-color: brown;
+}
+/* Lets target a device with width above 800px and lets change some properties */
+/* Max width is for mobile phone */
+@media all and (max-width:320px){     
+    .container p{
+        width: 30%;
+        float: left;
+        padding: 10px;
+    }
+    .para3{
+        background-color: burlywood;
+    }
+}
+@media (min-width: 321px){
+    .para1{
+        background-color: darkgoldenrod;
+    }
+}

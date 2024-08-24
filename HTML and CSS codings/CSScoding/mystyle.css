@@ -1,0 +1,61 @@
+/* universal selector(general selector) */
+*{
+    font-size: 50px;
+}
+/* id selector */
+#Definition{
+    color: aquamarine;
+}
+p2{
+    color:darkgreen;
+}
+/* class selector */
+.priority{
+    color:gold;
+}
+body
+{
+    background-color: chocolate;
+}
+/* type selector (for p it is general selector)*/
+h1,p{
+    text-decoration-color: darksalmon;
+    margin-left: 20px;
+    color: blue !important;
+}
+h1{
+    color:khaki;
+}
+/* adjacent sibling selector (specifically selected) */
+h1+h2{
+    color:deepskyblue;
+}
+
+ol{
+    text-align: justify;
+    color: chartreuse;
+    font-size: 30px;
+}
+#Java{
+    color: black;
+}
+
+#Frontend{
+    color:fuchsia;
+}
+/* child selector */
+div>p4{
+    color: navy;
+    font-style: oblique;
+}
+/* descendant selector */
+div a{
+    color: darkorange;
+    font-weight: bolder;
+}
+#backend{
+    color: gray;
+}
+#lists{
+    color: purple;
+}
